@@ -2,10 +2,14 @@
 
 # Measles response and tools by ForeSITE
 
+Also available in: [Español](es/README.md) | [中文](zh/README.md) | [हिंदी](hi/README.md)
+
 Last update: ![GitHub last commit](https://img.shields.io/github/last-commit/EpiForeSITE/measles)
 
 
-Since the beginning of the 2025 Measles outbreaks in the United States, ForeSITE has been collaborating with local and state health departments creating tools and analysis assisting the public health response. One of the closest collaborations has been with the Utah Department of Health and Human Services (Utah DHHS). This repository contains a list of the tools and other resources that ForeSITE has developed. At the end of this file you will also find links to other resources created by other InsightNet members.
+Since the beginning of the 2025 Measles outbreaks in the United States, ForeSITE (a member of the [InsightNet](https://insightnet.us/) modeling network) has been collaborating with local and state health departments creating tools and analysis assisting the public health response. One of the closest collaborations has been with the Utah Department of Health and Human Services (Utah DHHS). This repository contains a list of the tools and other resources that ForeSITE has developed. At the end of this file you will also find links to other resources created by other InsightNet members.
+
+If you have any questions or would like to collaborate with us (or need some help using any of these tools), please contact us at george.vegayon@utah.edu or just open an issue in this repository.
 
 ## Tools and Resources by ForeSITE
 
