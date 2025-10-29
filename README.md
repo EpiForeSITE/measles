@@ -1,0 +1,30 @@
+[![ForeSITE Group](https://github.com/EpiForeSITE/software/raw/e82ed88f75e0fe5c0a1a3b38c2b94509f122019c/docs/assets/foresite-software-badge.svg)](https://github.com/EpiForeSITE)
+
+# Measles response and tools by ForeSITE
+
+Last update: ![GitHub last commit](https://img.shields.io/github/last-commit/EpiForeSITE/measles)
+
+
+Since the beginning of the 2025 Measles outbreaks in the United States, ForeSITE has been collaborating with local and state health departments creating tools and analysis assisting the public health response. One of the closest collaborations has been with the Utah Department of Health and Human Services (Utah DHHS). This repository contains a list of the tools and other resources that ForeSITE has developed. At the end of this file you will also find links to other resources created by other InsightNet members.
+
+## Tools and Resources by ForeSITE
+
+1. **Single school outbreak simulator shiny app**: As an extension of the [`epiworldRShiny` package](https://cran.r-project.org/package=epiworldRShiny), we developed a shiny app that allows users to simulate measles outbreaks in a single school setting. The app runs two scenarios: one with quarantine and another without quarantine, and compares the results in terms of number of cases and hospitalizations. The app is available [here](https://ggv.cl/shiny/measles).
+
+2. **Single school outbreak simulator in R**: The shiny app is a wrapper of the `ModelMeaslesSchool` model in the [`epiworldR` package](https://cran.r-project.org/package=epiworldR). The `epiworldR` package itself is a wrapper of the `epiworld` C++ library ([link](https://github.com/UofUEpiBio/epiworld)), which provides the core simulation engine for all its models.
+
+3. **Measles school letters**: In a close collaboration with Utah DHHS, we created a template repository that other health departments can use to create customized letters with scenario results from our single school outbreak simulator. The template repository, which is available [here](https://github.com/EpiForeSITE/measles-school-letters), uses a [`quarto`](https://quarto.org/) document to generate the letters. Utah DHHS used this document to create customized letters for schools in Utah and provide information about potential measles outbreaks and the impact of quarantine measures to local health departments.
+
+4. **Mixing model with Quarantine**: We extended the single school model to include multiple schools (or entities) to assess the impact of measles outbreaks at the community level. The model is available in the `epiworldR` R package as [`ModelMeaslesMixing()`](https://uofuepibio.github.io/epiworldR/reference/ModelMeaslesMixing.html) and features a quarantine process using contact tracing. The main difference from the single school model is that in the single school model all unvaccinated agents are quarantined, whereas in the mixing model only contacts of detected cases are quarantined.
+
+5. **Measles risk quarantine level**: Following the question regarding the optimal quarantine length for measles exposure, we developed a model, [`ModelMeaslesMixingRiskQuarantine()`](https://uofuepibio.github.io/epiworldR/reference/ModelMeaslesMixingRiskQuarantine.html), that allows specifying varying quarantine lengths based on risk levels: high risk (same group as the reported case), medium risk (different group, but in direct contact), and low risk (different group, no direct contact). As of October 29, 2025, we have a report showing preliminary results from this model, which can be found [here](https://github.com/EpiForeSITE/measles-tiered-quarantine).
+
+
+All the ABM models listed here are available in C++ in the epiworld library ([link](https://github.com/UofUEpiBio/epiworld)), as well as Python in the `epiworldpy` library ([link](https://github.com/UofUEpiBio/epiworldpy)).
+
+## Other Resources by InsightNet Members
+
+- Compartmental Model for School outbreaks by the **epiENGAGE** group ([link](https://epiengage-measles.tacc.utexas.edu/)).
+- CDC's information sheet on Measles ([link](https://www.cdc.gov/measles/data-research/index.html)).
+- Texas Department of Health and Human Services' Measles Communication Kit ([link](https://www.dshs.texas.gov/vaccine-preventable-diseases/measles-rubeola/measles-communication-toolkit)).
+- CDC's Center for Forecasting and Outbreak Analytics' Measles simulator ([link](https://cdcposit.cdc.gov/measles-simulator/)).
