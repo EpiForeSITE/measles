@@ -27,9 +27,9 @@
 
 5. **按风险分层的隔离时长**：针对“麻疹暴露后最佳隔离时长”为何的问题，我们开发了模型 [`ModelMeaslesMixingRiskQuarantine()`](https://uofuepibio.github.io/measles/reference/ModelMeaslesMixingRiskQuarantine.html)，可根据风险级别设定不同隔离时长：高风险（与报告病例同组）、中风险（不同组但有直接接触）与低风险（不同组且无直接接触）。截至 2025 年 10 月 29 日，我们已有一份展示该模型初步结果的报告，可在[此处](https://github.com/EpiForeSITE/measles-tiered-quarantine)查阅。
 
-6. **多群体随机分仓模型**:与混合模型类似,犹他大学 Damon Toth 博士领导的团队最近发布了 R 包 [`multigroup.vaccine`](https://cran.r-project.org/package=multigroup.vaccine)。该包的功能包括应用于犹他州-亚利桑那州边境 Short Creek 地区的实例,使用了该地区的疫苗接种覆盖率以及美国人口普查信息。类似的示例分析可在 [`measles`](https://github.com/UofUEpiBio/measles) R 包的某个 vignette 中找到。
+6. **多群体随机分仓模型**：与混合模型类似，犹他大学 Damon Toth 博士领导的团队最近发布了 R 包 [`multigroup.vaccine`](https://cran.r-project.org/package=multigroup.vaccine)。该包的功能包括应用于犹他州-亚利桑那州边境 Short Creek 地区的实例，使用了该地区的疫苗接种覆盖率以及美国人口普查信息。类似的示例分析可在 [`measles`](https://github.com/UofUEpiBio/measles) R 包的某个 vignette 中找到。
 
-以上列出的所有 ABM 模型均可在 C++ 的 `epiworld` 库([链接](https://github.com/UofUEpiBio/epiworld))、R 包 `measles`(通过 `epiworldR` 封装 `epiworld`)以及 Python 的 `epiworldpy` 库([链接](https://github.com/UofUEpiBio/epiworldpy))中获得。
+以上列出的所有 ABM 模型均可在 C++ 的 `epiworld` 库（[链接](https://github.com/UofUEpiBio/epiworld)）、R 包 `measles`（通过 `epiworldR` 封装 `epiworld`）以及 Python 的 `epiworldpy` 库（[链接](https://github.com/UofUEpiBio/epiworldpy)）中获得。
 
 ## InsightNet 其他成员的资源
 
