@@ -1,3 +1,5 @@
+![](../measles-foresite.png)
+
 > [!CAUTION]
 > 本 README 由 GitHub Copilot 根据英文版自动生成。
 

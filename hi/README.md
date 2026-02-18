@@ -1,3 +1,5 @@
+![](../measles-foresite.png)
+
 > [!CAUTION]
 > यह README अंग्रेज़ी संस्करण के आधार पर GitHub Copilot द्वारा स्वचालित रूप से तैयार किया गया है।
 

@@ -1,5 +1,9 @@
+![](../measles-foresite.png)
+
 > [!CAUTION]
 > Este README fue creado de manera automática a partir del README en inglés utilizando GitHub copilot. 
+
+
 
 [![Grupo ForeSITE](https://github.com/EpiForeSITE/software/raw/e82ed88f75e0fe5c0a1a3b38c2b94509f122019c/docs/assets/foresite-software-badge.svg)](https://github.com/EpiForeSITE)
 
