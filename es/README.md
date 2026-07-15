@@ -31,6 +31,10 @@ Si tiene preguntas o desea colaborar con nosotros (o necesita ayuda usando cualq
 
 6. **Modelos compartimentales estocásticos con múltiples grupos**: Similar al modelo de mezcla, un equipo liderado por el Dr. Damon Toth de la Universidad de Utah lanzó recientemente el paquete R [`multigroup.vaccine`](https://cran.r-project.org/package=multigroup.vaccine). Entre sus características, los autores crearon ejemplos aplicados a Short Creek en la frontera entre Utah y Arizona, utilizando datos de cobertura de vacunación de la región, así como información del Censo de EE. UU. Un análisis de ejemplo similar se puede encontrar en una de las viñetas del paquete R [`measles`](https://github.com/UofUEpiBio/measles).
 
+7. **Calculadora de costos epidemiológicos (EPICC)**: Una sencilla herramienta en línea que permite a los usuarios estimar el límite inferior de los brotes de sarampión en términos de costos de salud pública, hospitalizaciones y pérdidas económicas. Esta herramienta es el resultado de la investigación de nuestro equipo en la Universidad de Utah. La herramienta está disponible [aquí](https://epiforesite.github.io/epicc/).
+
+8. **Panel de riesgo de brotes de sarampión de la Copa Mundial de la FIFA 2026**: Esta herramienta fue diseñada en colaboración con otros centros de InsightNet y los CDC para proporcionar una estimación temprana del riesgo de brotes de sarampión en las ciudades anfitrionas de EE. UU. para la Copa Mundial de 2026. El panel fue prototipado rápidamente mediante IA y aprovecha nuestras herramientas de modelación existentes, en particular los paquetes R `measles` y `epiworldR`. La herramienta está disponible [aquí](https://epiforesite.github.io/idcup/).
+
 Todos los modelos basados en agentes (ABM) listados aquí están disponibles en C++ en la biblioteca `epiworld` ([enlace](https://github.com/UofUEpiBio/epiworld)), en el paquete R `measles` (que envuelve `epiworld` a través de `epiworldR`), así como en Python en la biblioteca `epiworldpy` ([enlace](https://github.com/UofUEpiBio/epiworldpy)).
 
 ## Otros recursos de miembros de InsightNet

@@ -29,6 +29,10 @@
 
 6. **多群体随机分仓模型**：与混合模型类似，犹他大学 Damon Toth 博士领导的团队最近发布了 R 包 [`multigroup.vaccine`](https://cran.r-project.org/package=multigroup.vaccine)。该包的功能包括应用于犹他州-亚利桑那州边境 Short Creek 地区的实例，使用了该地区的疫苗接种覆盖率以及美国人口普查信息。类似的示例分析可在 [`measles`](https://github.com/UofUEpiBio/measles) R 包的某个 vignette 中找到。
 
+7. **流行病学成本计算器（EPICC）**：这是一款简单的在线工具，允许用户估算麻疹暴发在公共卫生成本、住院人数和经济损失方面的下限。该工具是犹他大学团队研究成果。工具可在[此处](https://epiforesite.github.io/epicc/)使用。
+
+8. **FIFA 2026 世界杯麻疹暴发风险仪表板**：该工具由我们与其他 InsightNet 中心及 CDC 合作设计，旨在对 2026 年世界杯美国主办城市的麻疹暴发风险提供早期估计。该仪表板使用 AI 快速构建原型，并利用了我们现有的建模工具，尤其是 `measles` 和 `epiworldR` R 包。工具可在[此处](https://epiforesite.github.io/idcup/)使用。
+
 以上列出的所有 ABM 模型均可在 C++ 的 `epiworld` 库（[链接](https://github.com/UofUEpiBio/epiworld)）、R 包 `measles`（通过 `epiworldR` 封装 `epiworld`）以及 Python 的 `epiworldpy` 库（[链接](https://github.com/UofUEpiBio/epiworldpy)）中获得。
 
 ## InsightNet 其他成员的资源
