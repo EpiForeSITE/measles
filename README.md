@@ -27,6 +27,10 @@ If you have any questions or would like to collaborate with us (or need some hel
 
 6. **Stochastic Compartmental Models with Multiple Groups**: Similar to the mixing model, a team led by Dr. Damon Toth from University of Utah recently released the R package [`multigroup.vaccine`](https://cran.r-project.org/package=multigroup.vaccine). Among its features, the authors created examples applied to the Short Creek in the Utah-Arizona border, using vaccination coverage from the region, as well as US Census information. A similar example analysis can be found in one of the vignettes of the [`measles`](https://github.com/UofUEpiBio/measles) R package.
 
+7. **Epidemiologic Cost Calculator (EPICC)**: A simple online tool that allows users to estimate the lower bound of measles outbreaks in terms of public health costs, hospitalizations, and economic losses. This tool is the result of research by our team at the University of Utah. The tool is available [here](https://epiforesite.github.io/epicc/).
+
+8. **FIFA 2026 World Cup Measles Outbreak Risk Dashboard**: This tool was designed in collaboration with other InsightNet Centers and the CDC to provide an early risk estimate of measles outbreaks in U.S. host cities for the 2026 World Cup. The dashboard was rapidly prototyped using AI and leverages our existing modeling tools, particularly the `measles` and `epiworldR` R packages. The tool is available [here](https://epiforesite.github.io/idcup/).
+
 All the ABM models listed here are available in C++ in the `epiworld` library ([link](https://github.com/UofUEpiBio/epiworld)), the `measles` R package (Which wraps `epiworld` via `epiworldR`), as well as Python in the `epiworldpy` library ([link](https://github.com/UofUEpiBio/epiworldpy)).
 
 ## Other Resources by InsightNet Members
