@@ -37,7 +37,7 @@
 
 ## मॉडल पैरामीटर
 
-हमारी सभी खसरा परियोजनाएँ एक ही मानक, संदर्भित पैरामीटर तालिका का उपयोग करती हैं, जो `measles` R पैकेज में रखी गई है: [`measles_parameters.csv`](https://github.com/UofUEpiBio/measles/blob/main/inst/extdata/measles_parameters.csv)। इसमें हर मॉडल पैरामीटर का डिफ़ॉल्ट मान, इकाई, साहित्य में बताई गई सीमा, स्रोत और सत्यापन की स्थिति दी गई है (✅ उद्धृत स्रोत से सत्यापित, 🗣️ लेखकों द्वारा पुष्टि की गई टीम की धारणा, ⚠️ लंबित)। R में `measles::measles_parameters()` चलाएँ; विनेट [Parameters and literature references](https://github.com/UofUEpiBio/measles/blob/main/vignettes/parameters.qmd) R0 कैलिब्रेशन और अस्पताल में भर्ती की दर व संभावना के संबंध को समझाता है। ऊपर दी गई हर परियोजना में एक "Parameters & references" तालिका है, जो उसके द्वारा उपयोग किए गए मान और पैकेज डिफ़ॉल्ट से अंतर के कारण बताती है।
+हमारी सभी खसरा परियोजनाएँ एक ही मानक, संदर्भित पैरामीटर तालिका का उपयोग करती हैं, जो `measles` R पैकेज में रखी गई है: [`measles_parameters.csv`](https://github.com/UofUEpiBio/measles/blob/main/inst/extdata/measles_parameters.csv)। इसमें हर मॉडल पैरामीटर का डिफ़ॉल्ट मान, इकाई, साहित्य में बताई गई सीमा और स्रोत दिया गया है। R में `measles::measles_parameters()` चलाएँ; विनेट [Parameters and literature references](https://github.com/UofUEpiBio/measles/blob/main/vignettes/parameters.qmd) R0 कैलिब्रेशन और अस्पताल में भर्ती की दर व संभावना के संबंध को समझाता है। ऊपर दी गई हर परियोजना में एक "Parameters & references" तालिका है, जो उसके द्वारा उपयोग किए गए मान और पैकेज डिफ़ॉल्ट से अंतर के कारण बताती है।
 
 ## InsightNet सदस्यों द्वारा अन्य संसाधन
 
