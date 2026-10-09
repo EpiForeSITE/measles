@@ -37,6 +37,10 @@ Si tiene preguntas o desea colaborar con nosotros (o necesita ayuda usando cualq
 
 Todos los modelos basados en agentes (ABM) listados aquí están disponibles en C++ en la biblioteca `epiworld` ([enlace](https://github.com/UofUEpiBio/epiworld)), en el paquete R `measles` (que envuelve `epiworld` a través de `epiworldR`), así como en Python en la biblioteca `epiworldpy` ([enlace](https://github.com/UofUEpiBio/epiworldpy)).
 
+## Parámetros de los modelos
+
+Todos nuestros proyectos de sarampión comparten una tabla de parámetros canónica y con referencias, mantenida en el paquete de R `measles`: [`measles_parameters.csv`](https://github.com/UofUEpiBio/measles/blob/main/inst/extdata/measles_parameters.csv). La tabla incluye cada parámetro de los modelos con su valor por defecto, unidades, rango en la literatura, fuente y estado de verificación (✅ verificado con la fuente citada, 🗣️ supuesto del equipo confirmado por los autores, ⚠️ pendiente). En R, ejecuta `measles::measles_parameters()`; la viñeta [Parameters and literature references](https://github.com/UofUEpiBio/measles/blob/main/vignettes/parameters.qmd) explica la calibración de R0 y la relación entre la tasa y la probabilidad de hospitalización. Cada proyecto listado arriba incluye una tabla "Parameters & references" con los valores que utiliza y explica sus diferencias con los valores por defecto del paquete.
+
 ## Otros recursos de miembros de InsightNet
 
 - Modelo compartimental para brotes escolares del grupo **epiENGAGE** ([enlace](https://epiengage-measles.tacc.utexas.edu/)).
