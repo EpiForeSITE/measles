@@ -33,6 +33,10 @@ If you have any questions or would like to collaborate with us (or need some hel
 
 All the ABM models listed here are available in C++ in the `epiworld` library ([link](https://github.com/UofUEpiBio/epiworld)), the `measles` R package (Which wraps `epiworld` via `epiworldR`), as well as Python in the `epiworldpy` library ([link](https://github.com/UofUEpiBio/epiworldpy)).
 
+## Model parameters
+
+All our measles projects share one canonical, cited parameter table, kept in the `measles` R package: [`measles_parameters.csv`](https://github.com/UofUEpiBio/measles/blob/main/inst/extdata/measles_parameters.csv). It lists every model parameter with its default value, units, literature range, and source. In R, run `measles::measles_parameters()`; the vignette [Parameters and literature references](https://github.com/UofUEpiBio/measles/blob/main/vignettes/parameters.qmd) explains the R0 calibration and how the hospitalization rate relates to a probability. Each project above includes a "Parameters & references" table that lists the values it uses and explains any differences from the package defaults.
+
 ## Other Resources by InsightNet Members
 
 - Compartmental Model for School outbreaks by the **epiENGAGE** group ([link](https://epiengage-measles.tacc.utexas.edu/)).

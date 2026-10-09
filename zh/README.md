@@ -35,6 +35,10 @@
 
 以上列出的所有 ABM 模型均可在 C++ 的 `epiworld` 库（[链接](https://github.com/UofUEpiBio/epiworld)）、R 包 `measles`（通过 `epiworldR` 封装 `epiworld`）以及 Python 的 `epiworldpy` 库（[链接](https://github.com/UofUEpiBio/epiworldpy)）中获得。
 
+## 模型参数
+
+我们所有的麻疹项目共用一张带有文献引用的标准参数表，保存在 `measles` R 包中：[`measles_parameters.csv`](https://github.com/UofUEpiBio/measles/blob/main/inst/extdata/measles_parameters.csv)。该表列出了每个模型参数的默认值、单位、文献范围和来源。在 R 中可运行 `measles::measles_parameters()`；小品文 [Parameters and literature references](https://github.com/UofUEpiBio/measles/blob/main/vignettes/parameters.qmd) 解释了 R0 的校准方法以及住院率与住院概率之间的关系。上述每个项目都包含一张 "Parameters & references" 表，列出其使用的参数值，并说明与包默认值的差异。
+
 ## InsightNet 其他成员的资源
 
 - **epiENGAGE** 团队的学校暴发舱室模型（[链接](https://epiengage-measles.tacc.utexas.edu/)）。

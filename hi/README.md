@@ -35,6 +35,10 @@
 
 यहाँ सूचीबद्ध सभी ABM मॉडल C++ में `epiworld` लाइब्रेरी ([लिंक](https://github.com/UofUEpiBio/epiworld)) में, R पैकेज `measles` में (`epiworldR` के माध्यम से `epiworld` को लपेटते हैं), साथ ही Python में `epiworldpy` लाइब्रेरी ([लिंक](https://github.com/UofUEpiBio/epiworldpy)) में उपलब्ध हैं।
 
+## मॉडल पैरामीटर
+
+हमारी सभी खसरा परियोजनाएँ एक ही मानक, संदर्भित पैरामीटर तालिका का उपयोग करती हैं, जो `measles` R पैकेज में रखी गई है: [`measles_parameters.csv`](https://github.com/UofUEpiBio/measles/blob/main/inst/extdata/measles_parameters.csv)। इसमें हर मॉडल पैरामीटर का डिफ़ॉल्ट मान, इकाई, साहित्य में बताई गई सीमा और स्रोत दिया गया है। R में `measles::measles_parameters()` चलाएँ; विनेट [Parameters and literature references](https://github.com/UofUEpiBio/measles/blob/main/vignettes/parameters.qmd) R0 कैलिब्रेशन और अस्पताल में भर्ती की दर व संभावना के संबंध को समझाता है। ऊपर दी गई हर परियोजना में एक "Parameters & references" तालिका है, जो उसके द्वारा उपयोग किए गए मान और पैकेज डिफ़ॉल्ट से अंतर के कारण बताती है।
+
 ## InsightNet सदस्यों द्वारा अन्य संसाधन
 
 - **epiENGAGE** समूह द्वारा स्कूल प्रकोपों के लिए कम्पार्टमेंटल मॉडल ([लिंक](https://epiengage-measles.tacc.utexas.edu/)).
